@@ -31,11 +31,18 @@ nav li a {
   font-size: 18px;
   text-transform: uppercase;
   padding: 0px 30px;
-  color: white;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
-navlia: hover {
+nav li a:hover {
   color: #ff8c69;
   transition: all 0.4s ease 0s;
+}
+.content-items img {
+  width: 50%;
+  height: 100vh;
+
+  background-position: center;
+  background-color: #012733;
 }
